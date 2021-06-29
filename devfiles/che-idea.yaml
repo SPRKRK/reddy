@@ -1,7 +1,7 @@
 metadata:
-  name: che-idea
+  name: idea-ic
 components:
   - type: cheEditor
     reference: 'https://github.com/SPRKRK/reddy/blob/meta/che-idea-latest.meta.yaml'
-    alias: che-idea
+    alias: idea-ic
 apiVersion: 1.0.0
