@@ -1,6 +1,6 @@
 apiVersion: v2
 publisher: eclipse
-name: che-idea
+name: idea-ic
 version: latest
 type: Che Editor
 displayName: IntelliJ IDEA Community
@@ -22,8 +22,8 @@ spec:
         cookiesAuthEnabled: true
         path: /?backgroundColor=434343&wss
   containers:
-    - name: che-idea
-      image: "quay.io/che-incubator/che-idea:latest"
+    - name: idea-ic
+      image: "quay.io/che-incubator/idea-ic:latest"
       mountSources: true
       volumes:
         - mountPath: "/home/projector-user"
